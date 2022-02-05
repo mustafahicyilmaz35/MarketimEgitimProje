@@ -10,7 +10,7 @@ namespace Marketim.Entity.Concretes
         public string CategoryName { get; set; }
 
         //Navigation Property
-        public virtual HashSet<Product> Products { get; set; }
+        public virtual HashSet<Product> Products { get; set; }  //Collection Yapıdır.
         
         //foreign key
         public int ProductId { get; set; }
