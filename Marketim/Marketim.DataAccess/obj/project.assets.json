@@ -1495,6 +1495,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Marketim.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Marketim.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Marketim.Entity.dll": {}
+        }
       }
     }
   },
@@ -5696,10 +5706,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Marketim.Entity/1.0.0": {
+      "type": "project",
+      "path": "../Marketim.Entity/Marketim.Entity.csproj",
+      "msbuildProject": "../Marketim.Entity/Marketim.Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Marketim.Entity >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.20",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.20",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.20"
@@ -5741,7 +5757,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\musta\\Desktop\\Marketim\\Marketim\\Marketim.Entity\\Marketim.Entity.csproj": {
+              "projectPath": "C:\\Users\\musta\\Desktop\\Marketim\\Marketim\\Marketim.Entity\\Marketim.Entity.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
