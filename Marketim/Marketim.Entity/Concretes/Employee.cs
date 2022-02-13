@@ -9,6 +9,7 @@ namespace Marketim.Entity.Concretes
     {
         public string Name { get; set; }
         public string Surname { get; set; }
+        public int ManagerId { get; set; }
 
         //navigation property
         public virtual Manager Manager { get; set; }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Marketim.DataAccess.Abstacts
 {
-    public interface IBaseRepository<T> where T: Model,new()
+    public interface IBaseRepository<T> where T : Model,new()
     {
         //CRUD -> Create, Retreive, Update, Delete
         List<T> GetAll();

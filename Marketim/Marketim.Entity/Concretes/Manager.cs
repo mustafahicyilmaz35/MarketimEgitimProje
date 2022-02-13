@@ -10,8 +10,7 @@ namespace Marketim.Entity.Concretes
         public string Name { get; set; }
         public string Surname { get; set; }
 
-        //foreign key
-        public int EmployeeId { get; set; }
+        
 
         //Navigation Property
         public virtual HashSet<Employee> Employees { get; set; }

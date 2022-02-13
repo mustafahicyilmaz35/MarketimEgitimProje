@@ -12,6 +12,7 @@ namespace Marketim.Entity.Concretes
         public string ProductName { get; set; }
         public int StockCount { get; set; }
         public decimal UnitPrice { get; set; }
+        public int CategoryId { get; set; }
 
         //Navigation Property
         public virtual Category Category { get; set; }
