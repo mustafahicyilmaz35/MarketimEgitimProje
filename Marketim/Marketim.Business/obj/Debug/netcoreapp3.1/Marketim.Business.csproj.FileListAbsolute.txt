@@ -1,0 +1,10 @@
+C:\Users\musta\Desktop\Marketim\Marketim\Marketim.Business\bin\Debug\netcoreapp3.1\Marketim.Business.deps.json
+C:\Users\musta\Desktop\Marketim\Marketim\Marketim.Business\bin\Debug\netcoreapp3.1\Marketim.Business.dll
+C:\Users\musta\Desktop\Marketim\Marketim\Marketim.Business\bin\Debug\netcoreapp3.1\Marketim.Business.pdb
+C:\Users\musta\Desktop\Marketim\Marketim\Marketim.Business\obj\Debug\netcoreapp3.1\Marketim.Business.csproj.AssemblyReference.cache
+C:\Users\musta\Desktop\Marketim\Marketim\Marketim.Business\obj\Debug\netcoreapp3.1\Marketim.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musta\Desktop\Marketim\Marketim\Marketim.Business\obj\Debug\netcoreapp3.1\Marketim.Business.AssemblyInfoInputs.cache
+C:\Users\musta\Desktop\Marketim\Marketim\Marketim.Business\obj\Debug\netcoreapp3.1\Marketim.Business.AssemblyInfo.cs
+C:\Users\musta\Desktop\Marketim\Marketim\Marketim.Business\obj\Debug\netcoreapp3.1\Marketim.Business.csproj.CoreCompileInputs.cache
+C:\Users\musta\Desktop\Marketim\Marketim\Marketim.Business\obj\Debug\netcoreapp3.1\Marketim.Business.dll
+C:\Users\musta\Desktop\Marketim\Marketim\Marketim.Business\obj\Debug\netcoreapp3.1\Marketim.Business.pdb

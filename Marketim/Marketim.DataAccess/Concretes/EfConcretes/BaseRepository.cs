@@ -3,6 +3,7 @@ using Marketim.Entity.Abstracts;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Marketim.DataAccess.Concretes.EfConcretes
@@ -12,27 +13,49 @@ namespace Marketim.DataAccess.Concretes.EfConcretes
     {
         public void Delete(T entity)
         {
-            throw new NotImplementedException();
+            using (var context = new TContext())
+            {
+                var entry = context.Entry(entity);
+                entry.State = EntityState.Deleted;
+                context.SaveChanges();
+            }
         }
 
         public T Get(Func<T, bool> filter)
         {
-            throw new NotImplementedException();
+            using (var context = new TContext())
+            {
+                return context.Set<T>().Where(filter).FirstOrDefault();
+            }
         }
 
         public List<T> GetAll()
         {
-            throw new NotImplementedException();
+            using (var context = new TContext())
+            {
+                return context.Set<T>().ToList();
+            }
         }
 
         public void Insert(T entity)
         {
-            throw new NotImplementedException();
+            using (var context = new TContext())
+            {
+                var entry = context.Entry(entity);
+                entry.State = EntityState.Added;
+                context.SaveChanges();
+
+            }
         }
 
         public void Update(T entity)
         {
-            throw new NotImplementedException();
+            using (var context = new TContext())
+            {
+                var entry = context.Entry(entity);
+                entry.State = EntityState.Modified;
+                context.SaveChanges();
+            }
         }
     }
 }
