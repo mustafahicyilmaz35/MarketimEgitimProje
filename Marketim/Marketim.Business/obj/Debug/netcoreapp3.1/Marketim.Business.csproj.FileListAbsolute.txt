@@ -8,3 +8,7 @@ C:\Users\musta\Desktop\Marketim\Marketim\Marketim.Business\obj\Debug\netcoreapp3
 C:\Users\musta\Desktop\Marketim\Marketim\Marketim.Business\obj\Debug\netcoreapp3.1\Marketim.Business.csproj.CoreCompileInputs.cache
 C:\Users\musta\Desktop\Marketim\Marketim\Marketim.Business\obj\Debug\netcoreapp3.1\Marketim.Business.dll
 C:\Users\musta\Desktop\Marketim\Marketim\Marketim.Business\obj\Debug\netcoreapp3.1\Marketim.Business.pdb
+C:\Users\musta\Desktop\Marketim\Marketim\Marketim.Business\bin\Debug\netcoreapp3.1\Marketim.DataAccess.dll
+C:\Users\musta\Desktop\Marketim\Marketim\Marketim.Business\bin\Debug\netcoreapp3.1\Marketim.Entity.dll
+C:\Users\musta\Desktop\Marketim\Marketim\Marketim.Business\bin\Debug\netcoreapp3.1\Marketim.DataAccess.pdb
+C:\Users\musta\Desktop\Marketim\Marketim\Marketim.Business\bin\Debug\netcoreapp3.1\Marketim.Entity.pdb

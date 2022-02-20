@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstracts\" />
-    <Folder Include="Concretes\" />
+    <ProjectReference Include="..\Marketim.DataAccess\Marketim.DataAccess.csproj" />
+    <ProjectReference Include="..\Marketim.Entity\Marketim.Entity.csproj" />
   </ItemGroup>
 
 </Project>

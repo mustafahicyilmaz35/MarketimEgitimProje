@@ -1,3 +1,7 @@
+using Marketim.Business.Abstracts;
+using Marketim.Business.Concretes;
+using Marketim.DataAccess.Abstacts;
+using Marketim.DataAccess.Concretes.EfConcretes;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -21,10 +25,20 @@ namespace Marketim.Web.API
 
         public IConfiguration Configuration { get; }
 
+        //Middleware
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddSingleton<ICategoryService, CategoryService>();
+            services.AddSingleton<IEmployeeService, EmployeeService>();
+            services.AddSingleton<IManagerService, ManagerService>();
+            services.AddSingleton<IProductService, ProductService>();
+
+            services.AddSingleton<ICategoryRepository, CategoryRepository>();
+            services.AddSingleton<IEmployeeRepository, EmployeeRepository>();
+            services.AddSingleton<IManagerRepository, ManagerRepository>();
+            services.AddSingleton<IProductRepository, ProductRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
