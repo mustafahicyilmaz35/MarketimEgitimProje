@@ -10,7 +10,6 @@ C:\Users\musta\Desktop\Marketim\Marketim\Marketim.DataAccess\obj\Debug\netcoreap
 C:\Users\musta\Desktop\Marketim\Marketim\Marketim.DataAccess\obj\Debug\netcoreapp3.1\Marketim.DataAccess.AssemblyInfoInputs.cache
 C:\Users\musta\Desktop\Marketim\Marketim\Marketim.DataAccess\obj\Debug\netcoreapp3.1\Marketim.DataAccess.AssemblyInfo.cs
 C:\Users\musta\Desktop\Marketim\Marketim\Marketim.DataAccess\obj\Debug\netcoreapp3.1\Marketim.DataAccess.csproj.CoreCompileInputs.cache
-C:\Users\musta\Desktop\Marketim\Marketim\Marketim.DataAccess\obj\Debug\netcoreapp3.1\Marketim.DataAccess.csproj.CopyComplete
 C:\Users\musta\Desktop\Marketim\Marketim\Marketim.DataAccess\obj\Debug\netcoreapp3.1\Marketim.DataAccess.dll
 C:\Users\musta\Desktop\Marketim\Marketim\Marketim.DataAccess\obj\Debug\netcoreapp3.1\Marketim.DataAccess.pdb
 C:\Users\musta\Desktop\Marketim\Marketim\Marketim.DataAccess\obj\Debug\netcoreapp3.1\Marketim.DataAccess.genruntimeconfig.cache

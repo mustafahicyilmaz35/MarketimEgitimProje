@@ -14,6 +14,8 @@ namespace Marketim.DataAccess.Concretes.Configurations
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Name).HasColumnType("nvarchar(50)");
             builder.Property(x => x.Surname).HasColumnType("nvarchar(50)");
+            builder.HasMany(x => x.Employees).WithOne(x => x.Manager).HasForeignKey(x=>x.ManagerId);
+            
         }
     }
 }
